@@ -13,6 +13,8 @@
   * Antenna-length is reasonable
   * [Carrier current](https://en.wikipedia.org/wiki/Carrier_current) is possible.  The mains power impedance isn't too low at this frequency.
   * Class-E amplifiers have already been designed for this frequency, for wireless charging.
+* Output power : 5W
+  * remains within QRP limits
 * Class-E RF amplifier (as on AMT5000)
   * High efficiency
   * Only one switching element
