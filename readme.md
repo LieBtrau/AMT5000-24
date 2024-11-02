@@ -15,7 +15,7 @@
   * Class-E amplifiers have already been designed for this frequency, for wireless charging.
 * Output power : 5W
   * remains within QRP limits
-* Class-E RF amplifier (as on AMT5000)
+* [Class-E RF amplifier (as on AMT5000)](./rf-amp.ipynb)
   * High efficiency
   * Only one switching element
 * PWM-modulator using H-bridge IC (as on TR6000)
