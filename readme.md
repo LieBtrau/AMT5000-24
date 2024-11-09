@@ -15,10 +15,22 @@
   * Class-E amplifiers have already been designed for this frequency, for wireless charging.
 * Output power : 5W
   * remains within QRP limits
-* [Class-E RF amplifier (as on AMT5000)](./rf-amp.ipynb)
-  * High efficiency
-  * Only one switching element
-* PWM-modulator using H-bridge IC (as on TR6000)
-* Oscillator using ESP32 output using the [LEDC-peripheral](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/ledc.html).
+
+# Block diagram
+<img src="./images/AM-transmitter_blockDiagram.png" width="1000"/>
+
+High-level AM-generator block diagram
+
+## RF-section (Radio-frequency)
+* [Crystal Oscillator & frequency synthesizer](./oscillator.md)
+* [Buffer amplifier & RF-power amplifier](./rf-amp.ipynb)
+
+## AF-section (Audio-frequency)
+* Audio PWM-modulator using H-bridge IC (as on TR6000) : CSD97395Q4M
 * [PWM-generator by ESP32 output](https://docs.espressif.com/projects/esp-iot-solution/en/latest/audio/pwm_audio.html)
 
+## Modulator
+Modulation happens by the output of the PWM-generator being used as power supply for the RF-power amplifier.
+
+## Output filter
+The output filter suppresses the harmonics of the switching frequency of the RF-power amplifier.
