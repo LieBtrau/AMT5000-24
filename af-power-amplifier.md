@@ -25,7 +25,7 @@ The PWM signal is fed to a low-pass filter to remove the PWM frequency and its h
 * C = 39µF → 4x 10µF, 1210 package
 
 ## Analog input
-An alternative to generating audio by PWM is using a single ended class D amplifier with analog audio input.  The MP7741 is such a device.  It's not available on JLCPCB.
+An alternative to generating audio by PWM is using a single ended class D amplifier with analog audio input.  The MP7740 and MP7741 are such devices.  They're not available on JLCPCB.
 
 ## I2S input
 This would be the ideal option.  A single ended class D amplifier with I2S input.  Unfortunately, all I2S amplifiers I found had balanced audio outputs.
