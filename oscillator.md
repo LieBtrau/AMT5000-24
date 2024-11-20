@@ -2,14 +2,14 @@
 A crystal could be used, but we won't get better than 10ppm, let's use a TCXO instead.
 
 ## Requirements
-* Output : not clipped sine wave
-  * because the slow edge decreases jitter performance and the duty cycle is not 50%.
-* Package : 3.2x2.5mm
-  * We need to solder it manually, JLCPCB doesn't have a 25MHz TCXO
+* 25MHz or 27MHz
+* sine wave output
+* 3.3V supply
+* Less than €2/pce
+* frequency tolerance < 2ppm
 
 ## Part selection
-* Fox FT3MHUPM25.0-T1
-* Abracon ATX-H11-F-25.000MHZ-F25-T
+SX2T25.000B010J020S
 
 # Frequency synthesizer
 The ESP32 can generate waveforms at 40MHz and much lower frequencies using the LEDC-peripheral, but the frequency resolution is very limited.  A PLL is required.  The Si5351A will be used:
@@ -18,8 +18,8 @@ The ESP32 can generate waveforms at 40MHz and much lower frequencies using the L
 * requires external crystal or clock
 
 ## Part selection
-* Skyworks Si5351A
-* MS5351M : less phase noise
+* Skyworks SI5351A-B-GTR, JLCPCB C504891
+* MS5351M : less phase noise, but it's a clone.
 
 # References
 [QRP Labs Si5351A Synthesiser Module, PCB Rev 6](https://www.qrp-labs.com/images/synth/synth_assembly6.pdf)
