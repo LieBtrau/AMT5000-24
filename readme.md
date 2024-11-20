@@ -7,12 +7,17 @@
 * only simple test equipment is needed
 
 # Design choice
+* DfM (Design for Manufacturability)
+  * Use of COTS components
+  * Use of standard PCB manufacturing techniques, no coil winding
+  * Use of standard assembly techniques, preferably SMT
+  * Ease of patching : SOIC instead of TSSOP
 * Frequency : 13.56 MHz
   * ISM-band
   * Falls within SW-broadcast band, so COTS AM-receivers can be used
-  * Antenna-length is reasonable
+  * Antenna-length for a dipole is reasonable
   * [Carrier current](https://en.wikipedia.org/wiki/Carrier_current) is possible.  The mains power impedance isn't too low at this frequency.
-  * Class-E amplifiers have already been designed for this frequency, for wireless charging.
+  * 13.56MHz Class-E power amplifier designs is not uncommon
 * Output power : 5W
   * remains within QRP limits
 
