@@ -39,3 +39,14 @@ Modulation happens by the output of the PWM-generator being used as power supply
 
 ## Output filter
 The output filter suppresses the harmonics of the switching frequency of the RF-power amplifier.
+
+# Implementation
+Instead of building a complete transmitter at once.  Prototyping will be done in stages.  The sections mentioned above will be designed as 50x50mm PCBs.  These will be tested separately and then combined onto a double sided 100x100mm FR4.  This allows us to:
+* Test the sections separately and in combination with each other.
+* A cheap double sided FR4 PCB can be used as a carrier for the sections.  This allows us to test the sections in combination with each other.
+* Use the cheap PCB manufacturing services, like JLCPCB.  The 6 layer 50x50mm PCBs are only $2/5pcs.
+* JST-PH will be used as connectors between the sections.
+  * JST-PH for power
+  * JST-PH for signals
+
+The disadvantage is that the sections will be connected by wires, but we can use u.fl coax cables for signals.  All components should be SMD, not through hole, because of the carrier PCB.
