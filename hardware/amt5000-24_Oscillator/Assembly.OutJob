@@ -15,12 +15,12 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Job Group
+Name=Assembly.OutJob
 Description=
 TargetOutputMedium=Manufacturing output (BOM and PnP)
 VariantName=A
 VariantScope=1
-CurrentConfigurationName=Assembly
+CurrentConfigurationName=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
@@ -101,22 +101,22 @@ Configuration4_Name8=VisibleOrder_Flat
 Configuration4_Item8=Comment=251|Designator=150|Footprint=100|JLCPCB Part #=170
 
 [PublishSettings]
-OutputFilePath2=C:\ProgramData\Altium\Altium Designer {473B0CD7-BC89-44B5-8D63-ABA35E737D1E}\VaultEditCache\9B4E264D-019F-4E66-99DA-6973A9DCF1D7\Released\Project Outputs for PRJT-0003-1\Board assembly output\
+OutputFilePath2=C:\github\AMT5000-24\hardware\AMT5000-24_Oscillator\Project Outputs for AMT5000-24_Oscillator\Board assembly output\
 ReleaseManaged2=1
 OutputBasePath2=Project Outputs for AMT5000-24_Oscillator
 OutputPathMedia2=Board assembly output
 OutputPathMediaValue2=Board assembly output
 OutputPathOutputer2=[Output Custom]
 OutputPathOutputerPrefix2=
-OutputPathOutputerValue2==board_name+_+project_revision+VariantName+_PBA
+OutputPathOutputerValue2==board_name+_+board_revision+'.'+assembly_revision+VariantName+_PBA
 OutputFileName2=
-OutputFileNameMulti2==board_name+_+project_revision+VariantName+_+OutputName
+OutputFileNameMulti2==board_name+_+board_revision+'.'+assembly_revision+VariantName+_+OutputName
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
 OpenOutput2=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\ProgramData\Altium\Altium Designer {473B0CD7-BC89-44B5-8D63-ABA35E737D1E}\VaultEditCache\9B4E264D-019F-4E66-99DA-6973A9DCF1D7\Released\Project Outputs for PRJT-0003-1\Board assembly output\
+RelativeOutputPath2=C:\github\AMT5000-24\hardware\AMT5000-24_Oscillator\Project Outputs for AMT5000-24_Oscillator\Board assembly output\
 OpenOutputs2=0
 AddToProject2=0
 TimestampFolder2=0
