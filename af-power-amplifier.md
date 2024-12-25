@@ -15,10 +15,13 @@ There are three options to supply audio to the amplifier:
 After much consideration, the analog input is chosen.
 
 ## Analog input
-An alternative to generating audio by PWM is using a single ended class D amplifier with analog audio input.  The MP7740 and MP7741 are such devices.  They're not available on JLCPCB.
+An alternative to generating audio by PWM is using a single ended class D amplifier with analog audio input.
+
+### MPS options
+The MP7740 and MP7741 are such devices.  They're not available on JLCPCB.
 Their minimum input voltage is 9.5V, which is already quite high.  We might want to test the circuit with lower supply voltages to avoid burning the amplifier.
 
-### Modulator options
+### TI options
 [SLAA701A LC Filter Design](https://www.ti.com/lit/an/slaa701a/slaa701a.pdf) explains the difference between the BD-modulator and the AD-modulator.  Both modulators have a positive and A
 an inverted output.  The difference is only in the inverted output.  For our application we can ignore the difference when using only the positive output.
 
@@ -76,3 +79,6 @@ The PWM signal is fed to a low-pass filter to remove the PWM frequency and its h
 * MAX98357A has a class-D amplifier with I²S input.  It's available on JLCPCB.
   * much more expensive than the TAS2505
   * simpler to use than the TAS2505
+* PCM5242RHBR
+  * used on Rapsberry Pi HATs
+  * €9 @ JLCPCB (expensive!)
