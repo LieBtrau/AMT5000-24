@@ -86,19 +86,19 @@ PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration4_Name1=ColumnNameFormat
 Configuration4_Item1=CaptionAsName
 Configuration4_Name2=General
-Configuration4_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1325|FormHeight=1033|SupplierProdQty=3000|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=EUR|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=True|BomSetName=
+Configuration4_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1707|FormHeight=1020|SupplierProdQty=3000|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=EUR|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|BomSetName=
 Configuration4_Name3=GroupOrder
 Configuration4_Item3=Comment=True
 Configuration4_Name4=SortOrder
 Configuration4_Item4=Designator=Up
 Configuration4_Name5=VisibleOrder
-Configuration4_Item5=Comment=251|Designator=150|Footprint=100|JLCPCB Part #=170
+Configuration4_Item5=Item ID=100|Designator=150|ItemGUID=100|JLCPCB Part #=170
 Configuration4_Name6=VisibleOrder_Base
 Configuration4_Item6=Line #=54|Comment=120|Description=120|Designator=120|Revision ID=79|Revision Status=99|Quantity=120|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=147|Supplier 1=74|Supplier Part Number 1=143|Supplier Unit Price 1=127|Supplier Subtotal 1=120
 Configuration4_Name7=VisibleOrder_Consolidated
 Configuration4_Item7=Line #=100|Comment=100|Description=100|Designator=100|Revision ID=100|Revision Status=100|Quantity=100|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=147|Supplier 1=74|Supplier Part Number 1=143|Supplier Unit Price 1=127|Supplier Subtotal 1=120|Quantity@A=100|Price@A=100
 Configuration4_Name8=VisibleOrder_Flat
-Configuration4_Item8=Comment=251|Designator=150|Footprint=100|JLCPCB Part #=170
+Configuration4_Item8=Item ID=100|Designator=150|ItemGUID=100|JLCPCB Part #=170
 
 [PublishSettings]
 OutputFilePath2=C:\github\AMT5000-24\hardware\AMT5000-24_Oscillator\Project Outputs for AMT5000-24_Oscillator\Board assembly output\
