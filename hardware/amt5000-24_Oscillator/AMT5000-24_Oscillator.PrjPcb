@@ -149,20 +149,20 @@ DocumentPath=Project Outputs for AMT5000-24_Oscillator\Design Rule Check - AMTOS
 DItemRevisionGUID=
 
 [Parameter1]
-Name=assembly_revision
-Value=0
+Name=Project_link
+Value=https://github.com/LieBtrau/amt5000-24
 
 [Parameter2]
-Name=board_name
-Value=AMTOSC
-
-[Parameter3]
 Name=board_revision
 Value=1.0
 
+[Parameter3]
+Name=board_name
+Value=AMTOSC
+
 [Parameter4]
-Name=Project_link
-Value=https://github.com/LieBtrau/amt5000-24
+Name=assembly_revision
+Value=0
 
 [Configuration1]
 Name=Sources
@@ -655,6 +655,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=MathWorks
+OutputName15=MathWorks (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Orcad v7 Capture Design
+OutputName16=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD ASCII
+OutputName17=P-CAD ASCII (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=P-CAD V16 Schematic Design
+OutputName18=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1016,7 +1046,7 @@ Type108=2
 Type109=1
 Type110=1
 Type111=1
-Type112=1
+Type112=2
 Type113=1
 Type114=2
 Type115=2
