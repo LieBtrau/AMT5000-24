@@ -1,10 +1,5 @@
-# Why AM and not FM?
-* Higher field strengths are allowed
-* Receiver bandwidths are narrower (lower noise floor)
-* AM is superior to FM under weak-signal conditions
-* AM-band has more usable channels than FM
-* construction is less critical because frequencies are low.
-* only simple test equipment is needed
+# AMT5000-24
+5W AM-transmitter for the 13.56MHz ISM-band
 
 # Design choice
 * DfM (Design for Manufacturability)
@@ -14,7 +9,7 @@
   * Ease of patching : SOIC instead of TSSOP
 * Frequency : 13.56 MHz
   * ISM-band
-  * Falls within SW-broadcast band, so COTS AM-receivers can be used
+  * Falls within SW-broadcast band, so AM-radios can be used
   * Antenna-length for a dipole is reasonable
   * [Carrier current](https://en.wikipedia.org/wiki/Carrier_current) is possible.  The mains power impedance isn't too low at this frequency.
   * 13.56MHz Class-E power amplifier designs is not uncommon
@@ -50,3 +45,11 @@ Instead of building a complete transmitter at once.  Prototyping will be done in
   * JST-PH for signals
 
 The disadvantage is that the sections will be connected by wires, but we can use u.fl coax cables for signals.  All components should be SMD, not through hole, because of the carrier PCB.
+
+# Why AM and not FM?
+* Higher field strengths are allowed
+* Receiver bandwidths are narrower (lower noise floor)
+* AM is superior to FM under weak-signal conditions
+* AM-band has more usable channels than FM
+* construction is less critical because frequencies are low.
+* only simple test equipment is needed
