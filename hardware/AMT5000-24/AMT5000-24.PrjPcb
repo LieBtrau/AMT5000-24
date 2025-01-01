@@ -212,40 +212,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=Interface.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RKUAHXXM
-
-[Document11]
-DocumentPath=Interface.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document12]
 DocumentPath=AMT5000-24.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -262,7 +228,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document11]
 DocumentPath=Modulator.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -279,7 +245,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UCWYDBZY
 
-[Document14]
+[Document12]
 DocumentPath=Modulator.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -301,36 +267,24 @@ UniqueId=a1560990-3940-4709-a683-1fbcfaed3643
 Description=A
 AllowFabrication=0
 ParameterCount=0
-VariationCount=12
-Variation1=Designator=R38|UniqueId=\OZKJJMQO\LLQCXSPP|Kind=1|AlternatePart=
-Variation2=Designator=C31|UniqueId=\OZKJJMQO\GJYHUBVJ|Kind=1|AlternatePart=
-Variation3=Designator=C32|UniqueId=\OZKJJMQO\MJNJBGBU|Kind=1|AlternatePart=
-Variation4=Designator=R33|UniqueId=\OZKJJMQO\JZSQXZGO|Kind=1|AlternatePart=
-Variation5=Designator=R34|UniqueId=\OZKJJMQO\FASSQRHR|Kind=1|AlternatePart=
-Variation6=Designator=R26|UniqueId=\OZKJJMQO\YMINECMI|Kind=1|AlternatePart=
-Variation7=Designator=R27|UniqueId=\OZKJJMQO\EEIQGZUV|Kind=1|AlternatePart=
-Variation8=Designator=C19|UniqueId=\OZKJJMQO\QUHKTOKG|Kind=1|AlternatePart=
-Variation9=Designator=C30|UniqueId=\OZKJJMQO\HVHHASDS|Kind=1|AlternatePart=
-Variation10=Designator=C33|UniqueId=\OZKJJMQO\YQDKRTTH|Kind=1|AlternatePart=
-Variation11=Designator=R52|UniqueId=\ISZTVMCB\TSNXYOYB|Kind=1|AlternatePart=
-Variation12=Designator=R43|UniqueId=\OZKJJMQO\ENKOKAVC|Kind=1|AlternatePart=
+VariationCount=0
 ParamVariationCount=0
 
 [Parameter1]
-Name=assembly_revision
-Value=0
+Name=Project_Link
+Value=https://github.com/LieBtrau/amt5000-24
 
 [Parameter2]
-Name=board_name
-Value=BRD123456
-
-[Parameter3]
 Name=board_revision
 Value=1.0
 
+[Parameter3]
+Name=board_name
+Value=AMTAMP
+
 [Parameter4]
-Name=Project_Link
-Value=https://github.com/LieBtrau/amt5000-24
+Name=assembly_revision
+Value=0
 
 [Configuration1]
 Name=Sources
