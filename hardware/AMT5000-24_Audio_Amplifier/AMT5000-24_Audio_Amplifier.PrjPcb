@@ -238,20 +238,20 @@ DocumentPath=Project Outputs for AMT5000-24_Audio_Amplifier\Design Rule Check - 
 DItemRevisionGUID=
 
 [Parameter1]
-Name=assembly_revision
-Value=0
+Name=Project_Link
+Value=https://github.com/LieBtrau/amt5000-24
 
 [Parameter2]
-Name=board_name
-Value=AMTMOD
-
-[Parameter3]
 Name=board_revision
 Value=1.0
 
+[Parameter3]
+Name=board_name
+Value=AMTMOD
+
 [Parameter4]
-Name=Project_Link
-Value=https://github.com/LieBtrau/amt5000-24
+Name=assembly_revision
+Value=0
 
 [Configuration1]
 Name=Sources
@@ -1145,7 +1145,7 @@ Type108=2
 Type109=1
 Type110=1
 Type111=1
-Type112=1
+Type112=2
 Type113=1
 Type114=2
 Type115=2
